@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ynov adventures</title>
+<link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main>
+
+  <!-- ========== PAGE D'ACCUEIL ========== -->
+  <section id="accueil" class="ecran actif">
+    <h1>Ynov Adventures</h1>
+    <p>Tu arrive à Ynov, tu es sur le parking ton objectif est de terminer ta journée.</p>
+    <button class="principal" id="btn-jouer">Commencer la journée</button>
+  </section>
+
+  <!-- ========== CHOIX DE LA CLASSE ========== -->
+  <section id="classes" class="ecran">
+    <h2>Qui es-tu ?</h2>
+    <button class="classe" data-classe="info">Info<small>30 PV · attaque 6 — solide, mais lent</small></button>
+    <button class="classe" data-classe="cyber">Cyber<small>24 PV · attaque 7 — équilibré</small></button>
+    <button class="classe" data-classe="data">Data<small>18 PV · attaque 10 — fragile mais puissant</small></button>
+  </section>
+
+  <!-- ========== JEU ========== -->
+  <section id="jeu" class="ecran">
+    <div id="stats"></div>
+    <div id="texte"></div>
+    <div id="journal"></div>
+    <div id="choix"></div>
+  </section>
+
+</main>
+
+<script src="js/game.js"></script>
+</body>
+</html>
