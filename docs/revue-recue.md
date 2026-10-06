@@ -1,4 +1,6 @@
 # Revus du 6 octobre 2026.
+Document analysé : README.md
+Rédaction : Émerick — Relecture : Gabor
 
 # La grille de revue : 
 
